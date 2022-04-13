@@ -17,6 +17,11 @@ It is aimed towards making our customers healthier both physically and mentally,
 
 ![pic4](https://user-images.githubusercontent.com/72100782/163159516-c0ca3bac-8656-46c2-8072-46aa4479b07b.jpeg)
 
+## Advantages
+Our website uses WEB 3.0 and hence is much more secure as it is hosted in decentralised storage spaces.
+The decentralised nature of our website ensures trust in our customers for complete privacy and security.
+Being a medical website requires it to be extremely stable as any stagnation of service might result in the potential loss of life. Being decentralized our website has an inherent advantage in security. 
+
 ## Team Members
 
 -Devashree
