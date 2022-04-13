@@ -1,0 +1,42 @@
+html,body{
+    background-color:#00092C;
+    font-family: 'Source Sans Pro',sans-serif;
+}
+.nav{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px 0 25px;
+    background-color: #06113C
+
+}
+
+.nav .links a{
+    margin-right: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #DDDDDD;
+}
+
+.nav .links .mainlink{
+    color: #EEEEEE;
+}
+
+
+.logo{
+    color:#ffffff
+
+
+}
+
+.container{
+    background-color:#FFFFFF;
+    border-radius: 1080px;
+}

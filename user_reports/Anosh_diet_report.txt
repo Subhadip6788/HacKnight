@@ -1,0 +1,46 @@
+
+REPORT
+
+USER DETAILS
+
+Name           : Anosh
+Age            : 19
+Gender         : Male
+Height         : 170cm
+Weight         : 75kg
+Weight Goal    : 65.0kg
+Your BMI is 26.0 and your weight status is Overweight
+
+CALORIES REPORT
+Daily calories you need to maintain your current weight is 2814
+Daily calories you need to lose weight (10.00kg/week) is -7186
+
+SUGGESTED MEAL
+
+Breakfast:
+
+Meal 1: Basic Scrambled Eggs. 
+Amount: 1 serving. 
+Calories: 273.1. 
+
+
+Total Breakfast Calories: 273.1. 
+
+Meal 1  : Cream Cheese Pickles. 
+Amount: 1 Serving. 
+Calories: 152.4. 
+
+Total Dinner Calories: 152.4. 
+
+Meal 1: Easy Grilled Chicken. 
+Amount: 2 serving. 
+Calories: 415.8. 
+
+Meal 2: Carrots. 
+Amount: 3 medium sized. 
+Calories: 172.2. 
+
+Total Lunch Calories: 588.0. 
+
+TOTAL CALORIES: 1014. 
+

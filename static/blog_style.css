@@ -1,0 +1,223 @@
+
+
+.logo{
+    color:#ffffff
+
+
+}
+
+.nav{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px 0 25px;
+    background-color: #06113C
+
+}
+
+.nav .links a{
+    margin-right: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #DDDDDD;
+}
+
+.nav .links .mainlink{
+    color: #EEEEEE;
+}
+
+.nav h4{
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+.row{
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+body{
+	font-family: sans-serif;
+	color: #00ADB5;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/YMOMFHWFHII6VKBFQ4RAATSBKA.jpg");
+	height: 90vh;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.logo img{
+	height: 90px;
+	float: left;
+	margin-top: 20px;
+	padding-left: 90px;
+}
+.main-nav{
+	float: right;
+	list-style: none;
+	margin-top: 40px;
+
+}
+
+.main-nav li{
+	display: inline-block;
+	margin-left: 20px;
+	}
+.main-nav li a{
+	color: #EEEEEE;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+}
+.main-nav li a:hover{
+	color: #393E46;
+	border-bottom: 2px solid #393E46;
+	transition: all 0.5s ease-in;
+	padding: 10px 0px;
+}
+.hero{
+	position: absolute;
+	width: 1140px;
+	top: 50%;
+	left:50%;
+	padding-left: 200px;
+    padding-top: 150px;
+	transform: translate(-50%,-50%);
+	color: #06113C;
+}
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/YMOMFHWFHII6VKBFQ4RAATSBKA.jpg");
+	height: 90vh;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+ }
+ .hero h1,p{
+ 	color: #EEEEEE;
+ 	font-style: italic;
+ }
+ .hero a:hover{
+ 	color: #EEEEEE;
+ 	background: #EEEEEE;
+ }
+ .hero h1 a{
+ 	vertical-align: right;
+ }
+ h2:after{
+ 	width: 100px;
+ 	height: 3px;
+ 	background-color: #393E46;
+ 	display: block;
+ 	content: " ";
+ 	margin: 0 auto;
+ 	margin-top: 15px;
+ 	margin-bottom: 15px;
+ }
+ .features{
+ 	background-color: #EEEEEE;
+ }
+
+ .rowGap .glyphicon{
+ 	margin-left: 35%;
+    font-size: 70px;
+		text-align: center;
+ }
+ .text-center{
+ 	margin-top: 0px;
+ 	margin-bottom: 0px;
+ }
+  h2{
+ 	padding-top: 40px;
+ }
+ p{
+ 	color: #222831;
+ 	padding: 15px;
+ 	text-align: justify;
+ }
+ .copy{
+ 	color: #222831;
+	font-size: 20px;
+ 	width: 70%;
+ 	margin-left: 15%;
+ 	text-align: center;
+ }
+
+ .testimonials{
+ 	margin-top: 0px;
+ 	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://convertingcolors.com/gradient-112D4E.svg");
+ 	padding-top: 40px;
+ 	padding-bottom: 80px;
+ 	color: #EEEEEE;
+ }
+ .testimonials p{
+ 	color: #EEEEEE;
+ }
+
+ .testimonials cite img{
+ 	width: 70px;
+ 	height: 70px;
+ 	border-radius: 50%;
+ }
+ .rowGap{
+ 	margin-top: 30px;
+ }
+
+ .btn-block{
+ 	background-color: #EEEEEE;
+ 	color: #EEEEEE;
+ 	margin-top: 15px;
+ 	border-radius: 5px;
+ }
+ .space{
+ 	margin-top: 40px;
+ }
+ .form{
+ 	margin-top: 30px;
+ 	margin-bottom: 40px;
+ }
+ .footer{
+ 	background-color: #222831;
+  color: #EEEEEE
+ }
+ .text-center{
+ 	padding:20px;
+ }
+ .pService{
+ 	list-style: none;
+ }
+ .pService li{
+ 	padding: 5px;
+ 	text-align: center;
+ }
+ .pService li a{
+
+ 	text-decoration: none;
+ 	color: #00ADB5;
+ }
+ .design{
+ 	-webkit-transition: 0.3s;
+    transition: 0.3s;
+    border: 1px solid #EEEEEE;
+ }
+ .design:hover{
+ 	box-shadow: 0 8px 12px 0 rgba(0,0,0,0.7);
+ }
+ .aboutUs{
+ 	color: #EEEEEE;
+ }
+ .aboutUs .copy{
+ 	color: #EEEEEE;
+ }
+ .video{
+ 	padding: 40px;
+ }
+ .text3{
+	 font-size: 16px;
+ }

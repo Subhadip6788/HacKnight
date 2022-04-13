@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Animated Login Form | CodingNepal</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px 0 25px;
+    background-color: #06113C
+    
+}
+.logo{
+    color:#ffffff
+    
+    
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background: #FF8C32;
+  height: 100vh;
+  overflow: hidden;
+}
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 400px;
+  background: #EEEEEE;
+  border: transparent;
+}
+.center h1{
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #DDDDDD;
+}
+.center form{
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+form .txt_field{
+  position: relative;
+  border-bottom: 2px solid #DDDDDD;
+  margin: 30px 0;
+}
+.txt_field input{
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+}
+.txt_field label{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  color: #DDDDDD;
+  transform: translateY(-50%);
+  font-size: 16px;
+  pointer-events: none;
+  transition: .5s;
+}
+.txt_field span::before{
+  content: '';
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #FF8C32;
+  transition: .5s;
+}
+.txt_field input:focus ~ label,
+.txt_field input:valid ~ label{
+  top: -5px;
+  color: #FF8C32;
+}
+.txt_field input:focus ~ span::before,
+.txt_field input:valid ~ span::before{
+  width: 100%;
+}
+.pass{
+  margin: -5px 0 20px 5px;
+  color: #DDDDDD;
+  cursor: pointer;
+}
+.pass:hover{
+  text-decoration: underline;
+}
+input[type="submit"]{
+  width: 100%;
+  height: 50px;
+  border: 1px solid;
+  background: #06113C;
+  border-radius: 25px;
+  font-size: 18px;
+  color: #EEEEEE;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+}
+input[type="submit"]:hover{
+  border-color: #FF8C32;
+  transition: .5s;
+}
+.signup_link{
+  margin: 30px 0;
+  text-align: center;
+  font-size: 16px;
+  color: #DDDDDD;
+}
+.signup_link a{
+  color: #FF8C32;
+  text-decoration: none;
+}
+.signup_link a:hover{
+  text-decoration: underline;
+}
+</style>
+<link rel="stylesheet" href="/static/styles.css">
+
+  </head>
+    <script>
+    function findBMI(){   
+      var height=parseInt(document.getElementById("height").value);
+      var weight=parseInt(document.getElementById("weight").value);
+      height=height/100.0;
+      var BMI=weight/Math.pow(height,2);
+      console.log(height);
+      console.log(weight);
+      console.log(BMI);
+      document.getElementById("value").innerText=BMI;
+      return false;
+    }  
+  </script>
+  <body>
+    <div class="nav">
+      <div class="logo">
+          <h4>NutriHelp.</h4>
+      </div>
+      <div class="links">
+          <a href="#" class="mainlink">HOME</a>
+          <a href="#">PROFILE</a>
+          <a href="#">FEATURE</a>
+          <a href="#">SIGN UP</a>
+          <a href="#">LOGIN</a>
+      </div>
+    </div>
+    <div class="center">
+      <h1>BMI</h1>
+      <form method="post" action="" onsubmit="return findBMI();">
+        <div class="txt_field">
+          <input type="number" id="height" style="padding-top: 20px ; padding-bottom: 20px;" required>
+          <span></span>
+          <label>Height(in cms)</label>
+        </div>
+        <div class="txt_field">
+          <input type="number" id ="weight" style="padding-top: 20px ; padding-bottom: 20px;" required>
+          <span></span>
+          <label>Weight(in KGs)</label>
+        </div>
+        <input type="submit" value="Submit">
+        <p id="value" style="text-align: center;"></p>
+      </form>
+    </div>
+  </body>
+
+</html>

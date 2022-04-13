@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+       body{
+          background-color: #FF8c32;
+       }
+       .container{
+         display: grid;
+         width: 1fr;
+         grid-template-columns: repeat(3, 1fr);
+         grid-gap: 1em;
+         padding-top: 20px;
+      }
+
+      button{
+         padding: 10px;
+         margin-top: 50%;
+         margin-left: 50px;
+         margin-right:50px;
+         text-align: center;
+         cursor: pointer;
+         background-color: #06113c;
+         border-radius: 20px;
+         color: white;
+         font-size: 2em;
+         border-radius: 5px;
+         border:solid;
+         border-color: aliceblue;
+         transition: .2s;
+      }
+      button:hover {
+            box-shadow: 10px 10px 10px fuchsia;
+            transform: scale(1.05);
+            background-color: white;
+            color: black;
+         }
+    </style>
+</head>
+<body>
+   <div class="container">
+      <button type="submit" onclick="connectWallet()" id="but">Connect Wallet</button>
+      <button type="submit" onclick="checkBalance()" id="but">Check Balance</button>
+      <button type="submit" onclick="sendTransaction()" id="but">Send Transaction
+      </button>
+   </div>
+    
+    <script>
+        window.onload=function() {
+            if(window.ethereum !== "undefined") {
+               this.ethereum.on("accountsChanged", handleAccountsChanged)
+            }
+         }
+         
+         let accounts;
+         
+         const handleAccountsChanged=(a)=> {
+            console.log("accounts changed")
+            accounts=a
+         }
+         
+         async function connectWalllet() {
+            accounts=await window.ethereum.request({method: "eth_requestAccounts"}).catch((err)=>{
+               console.log(err)
+            })
+            console.log(accounts)
+         }
+         
+         async function checkBalance() {
+            let balance=await window.ethereum.request({method: "eth_getBalance",
+               params: [
+               accounts[0],
+               'latest'
+               ]
+            }).catch((err)=>{
+               console.log(err)
+            })
+         
+            console.log(parseInt(blancee) /Math.pow(10,18))
+         }
+         
+         async function sendTransaction() {
+         
+            let result=await window.ethereum.request({method: "eth_sendTransaction", params : [{
+               "from": "0xCe43A6bFbdddd4f2B7E3F45a4BF641ed7538b07d",
+               "to": "0x88Aaaae76a777918f15206b31fa4e3c7fDedAcFf",
+               "gas": Number(21000).toString(16), // 30400
+               "gasPrice": Number(2500000).toString(16), // 10000000000000
+               "value": Number(1000000000000000000).toString(16), // 2441406250
+               "data": "0xd46e8dd67c5d32be8d46e8dd67c5d32be8058bb8eb970870f072445675058bb8eb970870f072445675"
+             }]}).catch((err)=>{
+               console.log(err)
+            })
+         }
+    </script>
+</body>
+</html>

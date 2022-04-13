@@ -1,0 +1,46 @@
+
+REPORT
+
+USER DETAILS
+
+Name           : Devasshree
+Age            : 19
+Gender         : Female
+Height         : 130cm
+Weight         : 50kg
+Weight Goal    : 47.0kg
+Your BMI is 29.6 and your weight status is Overweight
+
+CALORIES REPORT
+Daily calories you need to maintain your current weight is 1536
+Daily calories you need to lose weight (3.00kg/week) is -1464
+
+SUGGESTED MEAL
+
+Breakfast:
+
+Meal 1: Basic Scrambled Eggs. 
+Amount: 1 serving. 
+Calories: 273.1. 
+
+
+Total Breakfast Calories: 273.1. 
+
+Meal 1  : Cream Cheese Pickles. 
+Amount: 1 Serving. 
+Calories: 152.4. 
+
+Total Dinner Calories: 152.4. 
+
+Meal 1: Easy Grilled Chicken. 
+Amount: 2 serving. 
+Calories: 415.8. 
+
+Meal 2: Carrots. 
+Amount: 3 medium sized. 
+Calories: 172.2. 
+
+Total Lunch Calories: 588.0. 
+
+TOTAL CALORIES: 1014. 
+
