@@ -7,6 +7,11 @@ Healthcare Technologies are undergoing major reformation and adjustments to meet
 ![pic1](https://user-images.githubusercontent.com/72100782/163159113-2af7a103-6fe9-4466-a62b-47cb87f9ae60.jpeg)
 
 
+NutriHelp is a health based website, that aims to give the user a complete analysis, recommendations, and solutions related to nutrition and health.
+
+It is aimed towards making our customers healthier both physically and mentally, hence we have a list of certified medical practitioners in order to ensure that our customers receive the best treatment/diagnosis they can.
+
+
 ## Features
 ![pic3](https://user-images.githubusercontent.com/72100782/163159403-e63d8d9f-9b26-4b0f-ab0f-dad9c4e2de08.jpeg)
 
