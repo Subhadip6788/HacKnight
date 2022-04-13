@@ -10,6 +10,7 @@ Healthcare Technologies are undergoing major reformation and adjustments to meet
 ## Features
 ![pic3](https://user-images.githubusercontent.com/72100782/163159403-e63d8d9f-9b26-4b0f-ab0f-dad9c4e2de08.jpeg)
 
+![pic4](https://user-images.githubusercontent.com/72100782/163159516-c0ca3bac-8656-46c2-8072-46aa4479b07b.jpeg)
 
 ## Team Members
 
